@@ -1,52 +1,106 @@
+/* :root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+:root { font-family: 'Inter var', sans-serif; }
+} */
+
 .page {
-  /* background-color: #2A2C2F; */
-  border: 1px solid red;
+  background-color: #2A2C2F;
+  width: 1280px;
+  border: 1px solid rgb(110, 197, 29);
+  font-family: 'Inter var', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page__header {
+  margin-top: 28px;
 }
 
 .header {
-  border: 1px solid red;
-  width: 90%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  border: 1px solid rgb(0, 255, 64);
+  width: calc(100% - 3rem);
   height: 52px;
+  position: relative;
 }
 
 .logo {
-  border: 1px solid red;
-  width: 176px;
+  object-fit: contain;
+  width: 178px;
   height: 52px;
-  background-color: black;
 }
 
-.header__logo {}
+.header__logo {
+  position: absolute;
+  left: 0;
+}
 
 .header__lang-link {
-  border: 1px solid red;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 18px;
 }
+
+/* Незабыить сделать подчеркивание */
 
 .lead {
-  width: 984px;
-  height: 1005px;
+  border: 1px solid rgb(64, 0, 255);
+  position: relative;
+  max-width: 984px;
+  /* height: 1005px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 22px;
+}
+
+.lead__title {
+  line-height: 1;
+  font-size: 96px;
+  text-align: center;
+  margin: 56px;
+  color: #FFFFFF;
   border: 1px solid red;
 }
 
-.lead_tittle {
-  border: 1px solid red;
-  border: 1px solid red;
-}
-
-.lead_subtittle {
+.lead__subtitle {
+  max-width: 640px;
+  min-height: 40px;
+  max-height: 72px;
+  line-height: 36px;
+  font-size: 30px;
+  text-align: center;
+  margin: 32px 0 64px;
+  color: #FFFFFF;
   border: 1px solid red
 }
 
 .lead__image {
-  width: 984px;
-  /* height: 615px; */
+  border: 1px solid red;
+  max-width: 984px;
+  object-fit: contain;
+  max-height: 615px;
 }
 
-.header__caption {
+.lead__caption {
   border: 1px solid red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+  font-size: 10px;
+  line-height: 14px;
+  margin: 8px 0 0;
 }
 
 .into {
+  justify-self: left;
   width: 690px;
   height: 429px;
   border: 1px solid rgb(51, 0, 255);
@@ -54,10 +108,30 @@
 
 .into__title {
   border: 1px solid red;
+  color: #FFFFFF;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 92px 0 40px;
+
+  /* STOP THIS */
 }
 
 .into__text {
   border: 1px solid red;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+.into__list {
+list-style: none;
+margin: 0;
+padding: 0;
+color: #FFFFFF;
+font-size: 12px;
+line-height: 18px;
+/* change value */
+font-weight: 600;
 }
 
 .photo-grid {
