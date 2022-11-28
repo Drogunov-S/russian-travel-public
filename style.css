@@ -1,0 +1,136 @@
+.page {
+  /* background-color: #2A2C2F; */
+  border: 1px solid red;
+}
+
+.header {
+  border: 1px solid red;
+  width: 90%;
+  height: 52px;
+}
+
+.logo {
+  border: 1px solid red;
+  width: 176px;
+  height: 52px;
+  background-color: black;
+}
+
+.header__logo {}
+
+.header__lang-link {
+  border: 1px solid red;
+}
+
+.lead {
+  width: 984px;
+  height: 1005px;
+  border: 1px solid red;
+}
+
+.lead_tittle {
+  border: 1px solid red;
+  border: 1px solid red;
+}
+
+.lead_subtittle {
+  border: 1px solid red
+}
+
+.lead__image {
+  width: 984px;
+  /* height: 615px; */
+}
+
+.header__caption {
+  border: 1px solid red;
+}
+
+.into {
+  width: 690px;
+  height: 429px;
+  border: 1px solid rgb(51, 0, 255);
+}
+
+.into__title {
+  border: 1px solid red;
+}
+
+.into__text {
+  border: 1px solid red;
+}
+
+.photo-grid {
+  border: 1px solid red;
+}
+
+.photo-grid__item {
+  border: 1px solid red;
+  width: 284px;
+}
+
+.places {
+  border: 1px solid red;
+}
+
+.place {
+  border: 1px solid red;
+}
+
+.place__title {
+  border: 1px solid red;
+}
+
+.place__image {
+  border: 1px solid red;
+}
+
+.website {
+  border: 1px solid red;
+}
+
+.place__website {
+  border: 1px solid red;
+}
+
+.website__url-heading {
+  border: 1px solid red;
+}
+
+.website__link {
+  border: 1px solid red;
+}
+
+.website__link:hover {
+  background-color: aqua;
+}
+
+.place__paragraph {
+  border: 1px solid red;
+}
+
+.cover {
+  background-image: url('./images/cover-trains.jpg');
+
+  border: 1px solid red;
+}
+
+.cover__overlay {
+  border: 1px solid red;
+}
+
+.cover__overlay:hover {
+  border: 1px solid red;
+}
+
+.cover__title {
+  border: 1px solid red;
+}
+
+.footer {
+  border: 1px solid red;
+}
+
+.footer__link {
+  border: 1px solid red;
+}
