@@ -1,9 +1,8 @@
 # Проект: Путешествие по России
 
 ### Обзор
-* Интро
-* Figma
-* Картинки
+
+В проекте реализованно плавный переход при размера окна в диапазоне от 320px
 
 
 **О проекте**
@@ -32,4 +31,4 @@
 
 
 
-Посмотреть проект можно на [GitHub Pages](https://github.com/Drogunov-S/russian-travel-drogunov)
+Посмотреть проект можно на [GitHub Pages](https://drogunov-s.github.io/russian-travel-public/index.html)
