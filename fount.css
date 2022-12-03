@@ -25,12 +25,3 @@
    src: url('./founts/Inter-Bold.woff2') format('woff2'),
      url('./founts/Inter-Bold.woff') format('woff');
  }
-
-/*
-
-
- @font-face {
-   font-family: 'Inter';
-   src: local('Inter var'),
-     url(./founts/Inter.var.woff2);
- } */
