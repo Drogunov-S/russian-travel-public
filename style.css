@@ -56,7 +56,6 @@
 .content {
   width: 100%;
   flex-direction: column;
-  box-sizing: border-box;
 }
 
 .content__lead {
@@ -90,7 +89,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
 }
 
 .lead__title {
@@ -638,7 +636,6 @@
   }
 
   .footer {
-    height: 310px;
     width: calc(100% - 2rem);
     flex-direction: column;
 
