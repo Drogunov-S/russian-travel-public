@@ -31,4 +31,4 @@
 
 
 
-Посмотреть проект можно на [GitHub Pages](https://drogunov-s.github.io/russian-travel-public/index.html)
+Посмотреть проект можно на [GitHub Pages](https://drogunov-s.github.io/russian-travel-public/)
