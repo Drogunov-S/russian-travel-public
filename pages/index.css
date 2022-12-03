@@ -1,6 +1,6 @@
 /* root */
 @import url('../vendor/normalize.css');
-@import url('../founts/fount.css');
+@import url('../vendor/fonts/fount.css');
 
 /* page */
 @import url('../blocks/page/page.css');
