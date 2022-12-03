@@ -1,0 +1,6 @@
+.cover {
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: minmax(320px, 1184px);
+  position: relative;
+}

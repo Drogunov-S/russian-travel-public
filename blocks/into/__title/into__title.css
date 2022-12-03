@@ -1,0 +1,14 @@
+.into__title {
+  color: #FFFFFF;
+  font-size: 54px;
+  line-height: 1.1;
+  margin: 0 0 40px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 540px) {
+  .into__title {
+    font-size: 10vw;
+    line-height: 1.1;
+  }
+}

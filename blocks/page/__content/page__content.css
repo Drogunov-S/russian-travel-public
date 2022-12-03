@@ -1,0 +1,25 @@
+.page__content {
+  padding-top: 56px;
+  margin: 0 0 92px;
+  transition: padding ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__content {
+    padding-top: 48px;
+    transition: padding ease-in-out 0.3s;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__content {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__content {
+    margin-bottom: 66px;
+    transition: margin ease-in-out 0.3s;
+  }
+}

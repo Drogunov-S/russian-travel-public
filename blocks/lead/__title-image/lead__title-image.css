@@ -1,0 +1,18 @@
+.lead__title-image {
+  display: grid;
+  grid-template-columns: minmax(auto, 984px);
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 864px) {
+  .lead__title-image {
+    grid-template-columns: minmax(auto, 768px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title-image {
+    grid-template-columns: 320px;
+    grid-template-rows: 200px;
+  }
+}
