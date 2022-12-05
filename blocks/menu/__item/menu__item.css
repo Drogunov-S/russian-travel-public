@@ -1,24 +1,22 @@
-.footer__link {
+.menu__item {
   font-size: 16px;
   line-height: 18px;
-  color: #FFFFFF;
-  text-decoration: none;
   margin-right: 18px;
+  transition: margin ease-in-out 0.3s;
 }
 
-.footer__link:last-child {
-  margin: 0;
+.menu__item:last-child {
+  margin-right: 0;
 }
 
-.footer__link:hover {
+.menu__item:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 470px) {
-  .footer__link {
+  .menu__item {
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 32px;
-    transition: margin ease-in-out 0.3s;
   }
 }

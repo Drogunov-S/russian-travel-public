@@ -1,0 +1,15 @@
+.menu__links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 471px) {
+  .menu__links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

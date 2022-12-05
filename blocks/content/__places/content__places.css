@@ -1,9 +1,23 @@
 .content__places {
-  margin: 0 auto 92px;
+  margin-bottom: 92px;
   transition: margin ease-in-out 0.3s;
 }
 
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 1080px) {
+  .content__places {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content__places {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .content__places {
     margin-left: 24px;
     margin-right: 24px;
@@ -12,6 +26,14 @@
 
 @media screen and (max-width: 768px) {
   .content__places {
-    margin: 0 auto 90px;
+    margin-bottom: 90px;
   }
 }
+
+@media screen and (max-width: 752px) {
+  .content__places {
+    margin: 0 16 90px;
+  }
+}
+
+

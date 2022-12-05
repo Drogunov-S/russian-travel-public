@@ -21,9 +21,11 @@
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 680px) {
   .place__title {
     margin-left: 16px;
+    grid-column: 1;
+    grid-row: 1;
   }
 }
 
@@ -31,8 +33,6 @@
   .place__title {
     font-size: 32px;
     line-height: 1.1;
-    grid-column: 1;
-    grid-row: 1;
     margin: 0 16px 0;
   }
 }

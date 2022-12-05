@@ -11,13 +11,13 @@
 @media screen and (max-width: 720px) {
   .cover__title {
     font-size: 10vw;
-    line-height: 1.1;
+    line-height: 109.375%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;
-    line-height: 1.1;
+    line-height: 35px;
   }
 }
