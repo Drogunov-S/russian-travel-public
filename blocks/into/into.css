@@ -1,3 +1,9 @@
 .into {
   max-width: 690px;
 }
+
+@media screen and (max-width: 768px) {
+  .into {
+    max-width: 720px;
+  }
+}

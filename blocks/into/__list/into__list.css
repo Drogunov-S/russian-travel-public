@@ -7,10 +7,3 @@
   line-height: 18px;
   font-weight: 700;
 }
-
-@media screen and (max-width: 320px) {
-  .into__list {
-    font-size: 12px;
-    line-height: 1.5;
-  }
-}

@@ -1,4 +1,5 @@
 .lead__caption {
+  text-transform: uppercase;
   max-width: 984px;
   color: #FFFFFF;
   letter-spacing: 1.5px;
@@ -12,13 +13,11 @@
 @media screen and (max-width: 816px) {
   .lead__caption {
     margin-left: 24px;
-    transition: margin-left ease-in-out 0.3s;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__caption {
     margin-left: 16px;
-    transition: margin ease-in-out 0.3s;
   }
 }

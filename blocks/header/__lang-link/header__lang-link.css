@@ -9,3 +9,14 @@
 .header__lang-link:last-child {
   margin: 0;
 }
+
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 426px) {
+  .header__lang-link {
+   font-size: 5.63vw;
+   line-height: 20px;
+  }
+}

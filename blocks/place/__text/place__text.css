@@ -1,18 +1,13 @@
 .place__text {
   grid-row: 2 / -1;
+  margin: 0;
 }
 
-@media screen and (max-width: 470px) {
-  .place__text {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__text {
-    grid-column: 1;
-    grid-row: 4;
-    margin: 0 16px 0;
+  @media screen and (max-width: 320px) {
+    .place__text {
+      grid-column: 1;
+      grid-row: 4;
+      margin-left: 16px;
+      margin-right: 16px;
   }
 }

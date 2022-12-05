@@ -1,23 +1,28 @@
 .header {
+  max-width: 1184px;
+  width: calc(100% - 6rem);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  width: calc(100% - 6rem);
-  max-height: 52px;
 }
 
-
+/* Для плавного изменения margin с 48px до 24px*/
 @media screen and (max-width: 816px) {
   .header {
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
+    width: calc(100% + (816px - 100% - 96px));
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
     width: calc(100% - 3rem);
+  }
+}
+
+/* Для плавного изменения margin с 24px до 16px*/
+@media screen and (max-width: 336px) {
+  .header {
+    width: calc(100% + (336px - 100% - 48px));
   }
 }
 

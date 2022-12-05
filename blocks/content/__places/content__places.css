@@ -3,20 +3,6 @@
   transition: margin ease-in-out 0.3s;
 }
 
-@media screen and (max-width: 1080px) {
-  .content__places {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .content__places {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 @media screen and (max-width: 976px) {
   .content__places {
     margin-left: 24px;

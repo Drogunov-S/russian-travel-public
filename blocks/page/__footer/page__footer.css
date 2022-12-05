@@ -2,7 +2,7 @@
   margin: 0 auto 24px;
 }
 
-@media screen and (max-width: 816px) {
+@media screen and (max-width: 768px) {
   .page__footer {
     margin-left: 24px;
     margin-right: 24px;
