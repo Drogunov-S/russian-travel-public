@@ -32,8 +32,19 @@
 
 @media screen and (max-width: 752px) {
   .content__places {
-    margin: 0 16 90px;
+    margin-left: 16x;
+    margin-right: 16px;
   }
 }
+
+
+@media screen and (max-width: 752px) {
+  .content__places {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 
 
