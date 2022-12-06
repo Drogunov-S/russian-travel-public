@@ -1,4 +1,4 @@
-.menu__links {
+.footer__links {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 471px) {
-  .menu__links {
+  .footer__links {
     display: flex;
     align-items: flex-start;
     flex-direction: column;

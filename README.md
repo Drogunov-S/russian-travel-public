@@ -14,7 +14,7 @@
 * HTML
 * CSS
   * @media
-  * @face-fount
+  * @font-face
   * Flexbox
   * Grid
 * БЭМ (Nested)

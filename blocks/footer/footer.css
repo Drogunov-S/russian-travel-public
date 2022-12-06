@@ -21,7 +21,13 @@
 
 @media screen and (max-width: 470px) {
   .footer {
-    width: calc(100% - 2rem);
     flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 188px;
   }
 }

@@ -1,11 +1,16 @@
 .cover__overlay {
-  display: block;
+  background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .3)),
+  url('../../../images/cover-trains.jpg') center/cover no-repeat;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
-  background-color: rgba(42, 44, 47, .3);
-  padding-bottom: 62.5%;
-
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1.6 / 1;
 }
 
 .cover__overlay:hover {
-  background-color: rgba(42, 44, 47, .8);
+  background: linear-gradient(rgba(42, 44, 47, .8), rgba(42, 44, 47, .8)),
+  url('../../../images/cover-trains.jpg') center/cover no-repeat;
 }

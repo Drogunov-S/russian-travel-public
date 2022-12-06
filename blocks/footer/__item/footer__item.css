@@ -1,20 +1,20 @@
-.menu__item {
+.footer__item {
   font-size: 16px;
   line-height: 18px;
   margin-right: 18px;
   transition: margin ease-in-out 0.3s;
 }
 
-.menu__item:last-child {
+.footer__item:last-child {
   margin-right: 0;
 }
 
-.menu__item:hover {
+.footer__item:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 470px) {
-  .menu__item {
+  .footer__item {
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 32px;

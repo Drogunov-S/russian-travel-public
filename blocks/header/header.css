@@ -28,6 +28,7 @@
 
 @media screen and (max-width: 320px) {
   .header {
+    align-items: center;
     width: calc(100% - 2rem);
   }
 }

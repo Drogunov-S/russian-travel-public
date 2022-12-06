@@ -1,9 +1,3 @@
 .cover {
   max-width: 1184px;
-  min-width: 320px;
-  background-image: url('../../images/cover-trains.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  object-fit: cover;
-  position: relative;
 }

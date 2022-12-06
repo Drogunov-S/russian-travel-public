@@ -7,4 +7,11 @@
     margin-left: 24px;
     margin-right: 24px;
   }
+
+}@media screen and (max-width: 320px) {
+  .page__footer {
+    margin-left: 16px;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
 }

@@ -7,7 +7,6 @@
 @media screen and (max-width: 1024px) {
   .page__content {
     padding-top: 48px;
-    transition: padding ease-in-out 0.3s;
   }
 }
 
@@ -19,7 +18,7 @@
 
 @media screen and (max-width: 320px) {
   .page__content {
-    margin-bottom: 66px;
+    margin-bottom: 64px;
     transition: margin ease-in-out 0.3s;
   }
 }
