@@ -8,3 +8,11 @@
     margin-top: 28px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .page__header {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+  }
+}

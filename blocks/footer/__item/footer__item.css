@@ -19,4 +19,8 @@
     line-height: 24px;
     margin-bottom: 32px;
   }
+
+  .footer__item:last-child {
+    margin-bottom: 0;
+  }
 }
